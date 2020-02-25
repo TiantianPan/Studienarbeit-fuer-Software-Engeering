@@ -56,7 +56,7 @@ public class LoginUserController : Controller
         {
             db.Entry(user).State = System.Data.Entity.EntityState.Modified;
             db.SaveChanges();
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("HomePage", "Home");
         }
         return View(user);
     }
