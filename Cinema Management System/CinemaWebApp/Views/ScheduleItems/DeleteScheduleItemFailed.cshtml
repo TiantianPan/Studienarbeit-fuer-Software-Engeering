@@ -1,0 +1,17 @@
+﻿@model CinamaLib1.ScheduleItem
+
+@{
+    ViewBag.Title = "DeleteScheduleItemFailed";
+}
+<hr>
+
+<h2>Problem beim Löschen des ScheduleItems</h2>
+<h3>Dieses ScheduleItem könnte nicht geschlöscht werden, weil es mindestens noch in einem Ticket enthalten ist!</h3>
+<p>
+    Versuchen Sie bitte zunächst, die allen betreffenden Tickets zu löschen.
+</p>
+
+<p>
+    <a href="@Url.Action("Index", "ScheduleItems")" class="btn btn-default" role="button"><span class="glyphicon glyphicon-chevron-left"></span> Back to List</a>
+    <a href="@Url.Action("Index", "Movies")" class="btn btn-default" role="button"><span class="glyphicon glyphicon-film"></span> Alle Movie</a>
+</p>

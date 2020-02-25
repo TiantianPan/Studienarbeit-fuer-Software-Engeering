@@ -1,0 +1,88 @@
+Z:\Pan\Cinema\CinamaLib1\bin\Debug\CinamaLib1.dll.config
+Z:\Pan\Cinema\CinamaLib1\bin\Debug\CinamaLib1.dll
+Z:\Pan\Cinema\CinamaLib1\bin\Debug\CinamaLib1.pdb
+Z:\Pan\Cinema\CinamaLib1\bin\Debug\EntityFramework.dll
+Z:\Pan\Cinema\CinamaLib1\bin\Debug\EntityFramework.SqlServer.dll
+Z:\Pan\Cinema\CinamaLib1\bin\Debug\EntityFramework.xml
+Z:\Pan\Cinema\CinamaLib1\bin\Debug\EntityFramework.SqlServer.xml
+Z:\Pan\Cinema\CinamaLib1\obj\Debug\CinamaLib1.csprojAssemblyReference.cache
+Z:\Pan\Cinema\CinamaLib1\obj\Debug\CinamaLib1.csproj.CopyComplete
+Z:\Pan\Cinema\CinamaLib1\obj\Debug\CinamaLib1.dll
+Z:\Pan\Cinema\CinamaLib1\obj\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema\CinamaLib1\bin\Debug\CinamaLib1.dll.config
+C:\Users\I2CM Developer\Desktop\Cinema\CinamaLib1\bin\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema\CinamaLib1\bin\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema\CinamaLib1\bin\Debug\EntityFramework.dll
+C:\Users\I2CM Developer\Desktop\Cinema\CinamaLib1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\I2CM Developer\Desktop\Cinema\CinamaLib1\bin\Debug\EntityFramework.xml
+C:\Users\I2CM Developer\Desktop\Cinema\CinamaLib1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\I2CM Developer\Desktop\Cinema\CinamaLib1\obj\Debug\CinamaLib1.csprojAssemblyReference.cache
+C:\Users\I2CM Developer\Desktop\Cinema\CinamaLib1\obj\Debug\CinamaLib1.csproj.CopyComplete
+C:\Users\I2CM Developer\Desktop\Cinema\CinamaLib1\obj\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema\CinamaLib1\obj\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinamaLib1\bin\Debug\CinamaLib1.dll.config
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinamaLib1\bin\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinamaLib1\bin\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinamaLib1\bin\Debug\EntityFramework.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinamaLib1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinamaLib1\bin\Debug\EntityFramework.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinamaLib1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinamaLib1\obj\Debug\CinamaLib1.csprojAssemblyReference.cache
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinamaLib1\obj\Debug\CinamaLib1.csproj.CopyComplete
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinamaLib1\obj\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinamaLib1\obj\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinamaLib1\bin\Debug\CinamaLib1.dll.config
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinamaLib1\bin\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinamaLib1\bin\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinamaLib1\bin\Debug\EntityFramework.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinamaLib1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinamaLib1\bin\Debug\EntityFramework.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinamaLib1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinamaLib1\obj\Debug\CinamaLib1.csprojAssemblyReference.cache
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinamaLib1\obj\Debug\CinamaLib1.csproj.CopyComplete
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinamaLib1\obj\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinamaLib1\obj\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp09\Cinema\CinamaLib1\bin\Debug\CinamaLib1.dll.config
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp09\Cinema\CinamaLib1\bin\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp09\Cinema\CinamaLib1\bin\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp09\Cinema\CinamaLib1\bin\Debug\EntityFramework.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp09\Cinema\CinamaLib1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp09\Cinema\CinamaLib1\bin\Debug\EntityFramework.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp09\Cinema\CinamaLib1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp09\Cinema\CinamaLib1\obj\Debug\CinamaLib1.csprojAssemblyReference.cache
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp09\Cinema\CinamaLib1\obj\Debug\CinamaLib1.csproj.CopyComplete
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp09\Cinema\CinamaLib1\obj\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp09\Cinema\CinamaLib1\obj\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinamaLib1\bin\Debug\CinamaLib1.dll.config
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinamaLib1\bin\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinamaLib1\bin\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinamaLib1\bin\Debug\EntityFramework.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinamaLib1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinamaLib1\bin\Debug\EntityFramework.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinamaLib1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinamaLib1\obj\Debug\CinamaLib1.csprojAssemblyReference.cache
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinamaLib1\obj\Debug\CinamaLib1.csproj.CopyComplete
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinamaLib1\obj\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinamaLib1\obj\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinamaLib1\bin\Debug\CinamaLib1.dll.config
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinamaLib1\bin\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinamaLib1\bin\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinamaLib1\bin\Debug\EntityFramework.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinamaLib1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinamaLib1\bin\Debug\EntityFramework.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinamaLib1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinamaLib1\obj\Debug\CinamaLib1.csprojAssemblyReference.cache
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinamaLib1\obj\Debug\CinamaLib1.csproj.CopyComplete
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinamaLib1\obj\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinamaLib1\obj\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp15\Cinema\CinamaLib1\bin\Debug\CinamaLib1.dll.config
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp15\Cinema\CinamaLib1\bin\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp15\Cinema\CinamaLib1\bin\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp15\Cinema\CinamaLib1\bin\Debug\EntityFramework.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp15\Cinema\CinamaLib1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp15\Cinema\CinamaLib1\bin\Debug\EntityFramework.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp15\Cinema\CinamaLib1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp15\Cinema\CinamaLib1\obj\Debug\CinamaLib1.csprojAssemblyReference.cache
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp15\Cinema\CinamaLib1\obj\Debug\CinamaLib1.csproj.CopyComplete
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp15\Cinema\CinamaLib1\obj\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp15\Cinema\CinamaLib1\obj\Debug\CinamaLib1.pdb

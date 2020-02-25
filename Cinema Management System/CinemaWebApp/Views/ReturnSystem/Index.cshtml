@@ -1,0 +1,110 @@
+﻿@model CinamaLib1.Ticket
+@{
+    ViewBag.Title = "Ticket Return System";
+}
+<hr>
+<h2>Ticket Rückgabe</h2>
+<hr />
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Id, "Ticket-ID:", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Id, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Id, "", new { @class = "text-danger" })
+                <button type="submit" class="btn btn-default">Check</button>
+
+            </div>
+        </div>
+
+    </div>
+}
+
+<h4>Ticket Information</h4>
+<table class="table">
+    <tr>
+        <th>
+            Ticket-ID
+        </th>
+
+        <th>
+            Date
+        </th>
+
+        <th>
+            Movie
+        </th>
+
+        <th>
+            Seat
+        </th>
+
+        <th>
+            Type
+        </th>
+
+        <th>
+            Full Price
+        </th>
+
+        <th>
+            Final Price
+        </th>
+
+    </tr>
+
+    <tr>
+        <td style="vertical-align: middle">
+            @Html.DisplayFor(model => model.Id)
+        </td>
+
+        <td style="vertical-align: middle">
+            @Html.DisplayFor(model => model.ScheduleItem.Time)
+        </td>
+
+        <td style="vertical-align: middle">
+            @Html.DisplayFor(model => model.ScheduleItem.MovieItem.Name)
+        </td>
+
+        <td style="vertical-align: middle">
+            @Html.DisplayFor(model => model.SeatItem.SeatNum)
+        </td>
+
+        <td style="vertical-align: middle">
+            @Html.DisplayFor(model => model.TicketType)
+        </td>
+
+        <td style="vertical-align: middle">
+            @Html.DisplayFor(model => model.ScheduleItem.MovieItem.FullPrice)
+        </td>
+
+        <td style="vertical-align: middle">
+            @Html.DisplayFor(model => model.Price)
+        </td>
+
+        <td style="vertical-align: middle">
+            @if (Model != null)
+            {
+                <p>
+                    <a href="@Url.Action("Delete", "Tickets", new {id=Model.Id})" class="btn btn-default" role="button"><span class="glyphicon glyphicon-erase"></span> Rückgabe</a>
+                </p>
+            }
+        </td>
+    </tr>
+</table>
+
+<p>
+    <a href="@Url.Action("HomePage", "Home")" class="btn btn-default" role="button"><span class="glyphicon glyphicon-chevron-left"></span> Back to list</a>
+    <a href="@Url.Action("Index", "Tickets")" class="btn btn-default" role="button"><span class="glyphicon glyphicon-tags"></span> Alle Tickts</a>
+    <a href="@Url.Action("Index", "SaleSystem")" class="btn btn-default" role="button"><span class="glyphicon glyphicon-piggy-bank"></span> Online Shop</a>
+</p>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

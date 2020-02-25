@@ -1,0 +1,65 @@
+﻿@model CinamaLib1.Movie
+@{
+    ViewBag.Title = "Movie Details";
+}
+<h3>Details zum Movie</h3>
+<p>
+    Hier findest du alle Informationen zum jeweiligen Movie.
+</p>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Poster:
+        </dt>
+        <dd>
+            <div class="item">
+                <img class="img-thumbnail" src="@Url.Content(Model.Poster)" alt="Test5" style="width:200px; text-align: center " />
+            </div>
+        </dd>
+        <dt>
+            Name:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            Director:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Director)
+        </dd>
+
+        <dt>
+            Actor:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Actor)
+        </dd>
+
+        <dt>
+            Type:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MovieType)
+        </dd>
+
+        <dt>
+            Full Price:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FullPrice)
+        </dd>
+    </dl>
+</div>
+<p>
+    <a href="@Url.Action("Index", "Movies")" class="btn btn-default" role="button"><span class="glyphicon glyphicon-chevron-left"></span> Back to List</a>
+    <a href="@Url.Action("Edit", "Movies", new {id=Model.Id})" class="btn btn-default" role="button"><span class="glyphicon glyphicon-pencil"></span> Edit</a>
+</p>

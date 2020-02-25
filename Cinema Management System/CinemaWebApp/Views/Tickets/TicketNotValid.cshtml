@@ -1,0 +1,16 @@
+﻿@model CinamaLib1.Ticket
+
+@{
+    ViewBag.Title = "TicketNotValid";
+}
+<hr>
+<h2>Dieses Ticket ist nicht vergeben, bitte eine gültige Ticket-Nummer eingeben!</h2>
+<hr />
+
+<p>
+    <a class="btn btn-default" href="@Url.Action("Index", "ReturnSystem")" role="button"><span class="glyphicon glyphicon-chevron-left"></span> Back to List</a>
+    <a class="btn btn-default" href="@Url.Action("Index", "SaleSystem")" role="button"><span class="glyphicon glyphicon-piggy-bank"></span> Online Shop</a>
+</p>
+
+
+

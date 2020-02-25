@@ -1,0 +1,86 @@
+﻿@model CinamaLib1.Ticket
+@{
+    ViewBag.Title = "Ticket Rückgabe";
+}
+<hr>
+<h2>Ticket Rückgabe</h2>
+<h3>Bist du sicher, dass du dieses ticket zurückgeben möchtest?</h3>
+<p>
+    Dieses Ticket wird unwiederruflich storniert.
+</p>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Ticket ID
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+
+        <dt>
+            Data Time
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ScheduleItem.Time)
+        </dd>
+
+        <dt>
+            Movie
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ScheduleItem.MovieItem.Name)
+        </dd>
+
+        <dt>
+            Seatnummer
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SeatItem.SeatNum)
+        </dd>
+
+        <dt>
+            Ticket Type
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TicketType)
+        </dd>
+
+        <dt>
+            Full Price
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ScheduleItem.MovieItem.FullPrice)
+        </dd>
+
+        <dt>
+            Final Price
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="zurückgeben" class="btn btn-default" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <a href="@Url.Action("Index", "Tickets") " class="btn btn-default" role="button"><span class="glyphicon glyphicon-chevron-left"></span> Back to List</a>
+            </div>
+        </div>
+    }
+</div>
+

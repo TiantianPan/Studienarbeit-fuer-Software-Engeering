@@ -1,0 +1,112 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@model CinamaLib1.Customer
+@if (Model.IsAdmin == false)
+{
+    <div class="container">
+        <div class="jumbotron text-center" style="background-color: cornflowerblue">
+            <h1>Hello! Dear @ViewBag.User</h1>
+            <p class="lead">
+                Sie sind als Standardbenutzer angemeldet!
+                <br />
+                Today is @DateTime.Now
+            </p>
+        </div>
+
+        <div class="container-fluid text-center">
+            <div class="row content">
+                <div class="col-sm-3 text-center">
+                    <div class="well" style="height: 200px">
+                        <p><h4>Kinoprogamme</h4></p>
+                        <p>Hier lassen sich alle laufenden und kommenden Kinoprogramme sehen.</p>
+                        <br />
+                        <p><a class="btn btn-default" href="@Url.Action("Index", "ScheduleItems")"><span class="glyphicon glyphicon-facetime-video"></span> Alle Schedules</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <div class="well" style="height: 200px">
+                        <p><h4>Ticket Übersicht</h4></p>
+                        <br />
+                        <p>Hier lassen sich alle verkaufte Tickets sehen.</p>
+                        <br />
+                        <p><a class="btn btn-default" href="@Url.Action("Index", "Tickets")"><span class="glyphicon glyphicon-tags"></span> Alle Tickets</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <div class="well" style="height: 200px">
+                        <p><h4>Online Verkaufen</h4></p>
+                        <p>Hier lassen sich Tickets erstellen. Einfach Movie, Beginnzeit, Platz auswählen.</p>
+                        <br />
+                        <p><a class="btn btn-default" href="@Url.Action("Index", "SaleSystem")"><span class="glyphicon glyphicon-piggy-bank"></span> Go!</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <div class="well" style="height: 200px">
+                        <p><h4>Ticket Rückgabe</h4></p>
+                        <br />
+                        <p>Hier lassen sich verkaufte Tickets zurückgeben.</p>
+                        <br />
+                        <p><a class="btn btn-default" href="@Url.Action("Index", "ReturnSystem")"><span class="glyphicon glyphicon-erase"></span> Go!</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+
+
+@if (Model.IsAdmin == true)
+{
+    <div class="container">
+        <div class="jumbotron text-center" style="background-color: cadetblue">
+            <h1>Hello! Dear @ViewBag.User</h1>
+            <p class="lead">
+                Sie sind als System Admin angemeldet!
+                <br />
+                Today is @DateTime.Now
+            </p>
+        </div>
+
+        <div class="col-sm-3 text-center">
+            <div class="well" style="height: 280px">
+                <p><h4>User verwalten</h4><p>
+                <p>Hier lassen sich alle registrierten Nutzer sehen und verwalten.</p>
+                <br>
+                <br />
+                <p><a class="btn btn-default" href="@Url.Action("Index", "Customers")"><span class="glyphicon glyphicon-user"></span> Alle Nutzer</a></p>
+
+            </div>
+        </div>
+        <div class="col-sm-3 text-center">
+            <div class="well" style="height: 280px">
+                <p><h4>Movie verwalten</h4></p>
+                <p>Hier lassen sich Filme hinzufügen, die im laufenden Kinoprogamm aufgenommen werden können.</p>
+                <br />
+                <p><a class="btn btn-default" href="@Url.Action("Index", "Movies")"><span class="glyphicon glyphicon-film"></span> Alle Movie</a></p>
+                <p><a class="btn btn-default" href="@Url.Action("Create", "Movies")"><span class="glyphicon glyphicon-plus"></span> Create...</a></p>
+            </div>
+        </div>
+        <div class="col-sm-3 text-center">
+            <div class="well" style="height: 280px">
+                <p><h4>Schedule verwalten</h4></p>
+                <p>Hier lassen sich Kinoprogramme der laufenden Wochen erstellen.</p>
+                <br />
+                <p><a class="btn btn-default" href="@Url.Action("Index", "ScheduleItems")"><span class="glyphicon glyphicon-facetime-video"></span> Alle Schedules</a></p>
+                <p><a class="btn btn-default" href="@Url.Action("InitScheduleDemo", "Home")" role="button"><span class="glyphicon glyphicon-copy"></span>  Demo Daten </a></p>
+                <p><a class="btn btn-default" href="@Url.Action("Create", "ScheduleItems")"><span class="glyphicon glyphicon-plus"></span>  Create...  </a></p>
+            </div>
+        </div>
+        <div class="col-sm-3 text-center">
+            <div class="well" style="height: 280px">
+                <p><h4>Kino Kasse</h4></p>
+                <p>Hier lassen sich Tickets erstellen und stornieren.</p>
+                <br />
+                <p><a class="btn btn-default" href="@Url.Action("Index", "ReturnSystem")" role="button"><span class="glyphicon glyphicon-erase"></span> Ticket Rückgabe</a></p>
+                <p><a class="btn btn-default" href="@Url.Action("Index", "SaleSystem")" role="button"><span class="glyphicon glyphicon-piggy-bank"></span>  Online Shop   </a></p>
+                <p><a class="btn btn-default" href="@Url.Action("Index", "Tickets")"><span class="glyphicon glyphicon-tags"></span>  Alle Tickets  </a></p>
+            </div>
+        </div>
+    </div>
+}

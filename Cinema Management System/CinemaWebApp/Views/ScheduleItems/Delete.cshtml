@@ -1,0 +1,47 @@
+﻿@model CinamaLib1.ScheduleItem
+@{
+    ViewBag.Title = "ScheduleItem Delete";
+}
+<hr>
+<h2>ScheduleItem Delete</h2>
+<h3>Bist du sicher, dass du dieses ScheduleItem löschen möchtest?</h3>
+<p>
+    Dies ScheduleItem wird unwiederruflich gelöscht.
+</p>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Date Time
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Time)
+        </dd>
+
+        <dt>
+            Movie
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MovieItem.Name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Delete" class="btn btn-default" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <a href="@Url.Action("Index", "ScheduleItems") " class="btn btn-default" role="button"><span class="glyphicon glyphicon-chevron-left"></span> Back to List</a>
+            </div>
+        </div>
+
+    }
+</div>

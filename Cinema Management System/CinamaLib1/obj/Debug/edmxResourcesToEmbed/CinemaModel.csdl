@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="CinemaModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="CinemaModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Movies" EntityType="CinemaModel.Movie" />
+    <EntitySet Name="ScheduleItems" EntityType="CinemaModel.ScheduleItem" />
+    <EntitySet Name="Tickets" EntityType="CinemaModel.Ticket" />
+    <EntitySet Name="Seats" EntityType="CinemaModel.Seat" />
+    <AssociationSet Name="MovieScheduleItem" Association="CinemaModel.MovieScheduleItem">
+      <End Role="Movie" EntitySet="Movies" />
+      <End Role="ScheduleItem" EntitySet="ScheduleItems" />
+    </AssociationSet>
+    <AssociationSet Name="ScheduleItemTicket" Association="CinemaModel.ScheduleItemTicket">
+      <End Role="ScheduleItem" EntitySet="ScheduleItems" />
+      <End Role="Ticket" EntitySet="Tickets" />
+    </AssociationSet>
+    <AssociationSet Name="TicketSeat" Association="CinemaModel.TicketSeat">
+      <End Role="Ticket" EntitySet="Tickets" />
+      <End Role="Seat" EntitySet="Seats" />
+    </AssociationSet>
+    <EntitySet Name="Customers" EntityType="CinemaModel.Customer" />
+    <AssociationSet Name="UserMovie" Association="CinemaModel.UserMovie">
+      <End Role="User" EntitySet="Customers" />
+      <End Role="Movie" EntitySet="Movies" />
+    </AssociationSet>
+    <AssociationSet Name="UserScheduleItem" Association="CinemaModel.UserScheduleItem">
+      <End Role="User" EntitySet="Customers" />
+      <End Role="ScheduleItem" EntitySet="ScheduleItems" />
+    </AssociationSet>
+    <AssociationSet Name="UserTicket" Association="CinemaModel.UserTicket">
+      <End Role="User" EntitySet="Customers" />
+      <End Role="Ticket" EntitySet="Tickets" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Movie">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Director" Type="String" Nullable="true" />
+    <Property Name="Actor" Type="String" Nullable="true" />
+    <Property Name="MovieType" Type="String" Nullable="true" />
+    <Property Name="Poster" Type="String" Nullable="true" />
+    <Property Name="FullPrice" Type="Double" Nullable="false" />
+    <NavigationProperty Name="ScheduleItem" Relationship="CinemaModel.MovieScheduleItem" FromRole="Movie" ToRole="ScheduleItem" />
+    <NavigationProperty Name="ProcessedMovie" Relationship="CinemaModel.UserMovie" FromRole="Movie" ToRole="User" />
+    <Property Name="UserId" Type="Int32" Nullable="true" />
+  </EntityType>
+  <EntityType Name="ScheduleItem">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Time" Type="DateTime" Nullable="false" />
+    <Property Name="MovieItemId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="MovieItem" Relationship="CinemaModel.MovieScheduleItem" FromRole="ScheduleItem" ToRole="Movie" />
+    <NavigationProperty Name="TicketsItem" Relationship="CinemaModel.ScheduleItemTicket" FromRole="ScheduleItem" ToRole="Ticket" />
+    <NavigationProperty Name="ProcessedScheduleItem" Relationship="CinemaModel.UserScheduleItem" FromRole="ScheduleItem" ToRole="User" />
+    <Property Name="UserId" Type="Int32" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Ticket">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Price" Type="Double" Nullable="false" />
+    <Property Name="TicketType" Type="String" Nullable="false" />
+    <Property Name="Discount" Type="Double" Nullable="true" />
+    <Property Name="Coupon" Type="String" Nullable="true" />
+    <Property Name="ScheduleItemId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ScheduleItem" Relationship="CinemaModel.ScheduleItemTicket" FromRole="Ticket" ToRole="ScheduleItem" />
+    <NavigationProperty Name="SeatItem" Relationship="CinemaModel.TicketSeat" FromRole="Ticket" ToRole="Seat" />
+    <Property Name="SeatItemId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ProcessedTicket" Relationship="CinemaModel.UserTicket" FromRole="Ticket" ToRole="User" />
+    <Property Name="UserId" Type="Int32" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Seat">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SeatNum" Type="String" Nullable="false" />
+    <NavigationProperty Name="Tickets" Relationship="CinemaModel.TicketSeat" FromRole="Seat" ToRole="Ticket" />
+  </EntityType>
+  <Association Name="MovieScheduleItem">
+    <End Type="CinemaModel.Movie" Role="Movie" Multiplicity="1" />
+    <End Type="CinemaModel.ScheduleItem" Role="ScheduleItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Movie">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ScheduleItem">
+        <PropertyRef Name="MovieItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ScheduleItemTicket">
+    <End Type="CinemaModel.ScheduleItem" Role="ScheduleItem" Multiplicity="1" />
+    <End Type="CinemaModel.Ticket" Role="Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ScheduleItem">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="ScheduleItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TicketSeat">
+    <End Type="CinemaModel.Ticket" Role="Ticket" Multiplicity="*" />
+    <End Type="CinemaModel.Seat" Role="Seat" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Seat">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="SeatItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LastName" Type="String" Nullable="true" />
+    <Property Name="FirstName" Type="String" Nullable="true" />
+    <Property Name="Email" Type="String" Nullable="true" />
+    <Property Name="EmployeeNum" Type="String" Nullable="true" />
+    <NavigationProperty Name="ManageMovie" Relationship="CinemaModel.UserMovie" FromRole="User" ToRole="Movie" />
+    <NavigationProperty Name="ManageScheduleItem" Relationship="CinemaModel.UserScheduleItem" FromRole="User" ToRole="ScheduleItem" />
+    <NavigationProperty Name="ManageTicket" Relationship="CinemaModel.UserTicket" FromRole="User" ToRole="Ticket" />
+    <Property Name="IsAdmin" Type="Boolean" Nullable="false" />
+    <Property Name="Telefon" Type="String" Nullable="true" />
+  </EntityType>
+  <Association Name="UserMovie">
+    <End Type="CinemaModel.Customer" Role="User" Multiplicity="0..1" />
+    <End Type="CinemaModel.Movie" Role="Movie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Movie">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UserScheduleItem">
+    <End Type="CinemaModel.Customer" Role="User" Multiplicity="0..1" />
+    <End Type="CinemaModel.ScheduleItem" Role="ScheduleItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ScheduleItem">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UserTicket">
+    <End Type="CinemaModel.Customer" Role="User" Multiplicity="0..1" />
+    <End Type="CinemaModel.Ticket" Role="Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

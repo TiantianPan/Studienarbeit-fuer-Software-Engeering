@@ -1,0 +1,68 @@
+﻿@model IEnumerable<CinamaLib1.Ticket>
+@{
+    ViewBag.Title = "Ticket List";
+}
+<hr>
+<h2>Übersicht Ticket</h2>
+<table class="table">
+    <tr>
+        <th>
+            Ticket-ID
+        </th>
+        <th>
+            Date
+        </th>
+        <th>
+            Movie
+        </th>
+        <th>
+            Seat
+        </th>
+        <th>
+            Type
+        </th>
+        <th>
+            Full Price
+        </th>
+        <th>
+            Final Price
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td style="vertical-align: middle">
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td style="vertical-align: middle">
+                @Html.DisplayFor(modelItem => item.ScheduleItem.Time)
+            </td>
+            <td style="vertical-align: middle">
+                @Html.DisplayFor(modelItem => item.ScheduleItem.MovieItem.Name)
+            </td>
+            <td style="vertical-align: middle">
+                @Html.DisplayFor(modelItem => item.SeatItem.SeatNum)
+            </td>
+            <td style="vertical-align: middle">
+                @Html.DisplayFor(modelItem => item.TicketType)
+            </td>
+            <td style="vertical-align: middle">
+                @Html.DisplayFor(modelItem => item.ScheduleItem.MovieItem.FullPrice)
+            </td>
+            <td style="vertical-align: middle; text-align:center">
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td style="vertical-align: middle; text-align:center">
+                <a class="btn btn-sm" href="@Url.Action("Details", "Tickets", new { id = item.Id })" role="button"><span class="glyphicon glyphicon-zoom-in"></span> Details</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<p>
+    <a class="btn btn-default" href="@Url.Action("HomePage", "Home")" role="button"><span class="glyphicon glyphicon-chevron-left"></span> Back to List</a>
+    <a class="btn btn-default" href="@Url.Action("Index", "SaleSystem")" role="button"><span class="glyphicon glyphicon-piggy-bank"></span> Online Shop</a>
+    <a class="btn btn-default" href="@Url.Action("Index", "ReturnSystem")" role="button"><span class="glyphicon glyphicon-erase"></span> Ticket Rückgabe</a>
+</p>

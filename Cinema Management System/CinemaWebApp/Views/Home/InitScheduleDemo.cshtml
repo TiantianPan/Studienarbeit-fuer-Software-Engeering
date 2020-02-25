@@ -1,0 +1,49 @@
+﻿@model IEnumerable<CinamaLib1.ScheduleItem>
+@{
+    ViewBag.Title = "Demo Schedule";
+}
+<hr>
+<h2>Übersicht Schedule Demo Daten!</h2>
+<table class="table">
+    <tr>
+        <th>
+            Date Time
+        </th>
+        <th style="width: 200px">
+            Poster
+        </th>
+        <th>
+            Movie
+        </th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td style="vertical-align: middle">
+                @Html.DisplayFor(modelItem => item.Time)
+            </td>
+            <td>
+                <div class="item">
+                    <img class="img-thumbnail" src="@Url.Content(item.MovieItem.Poster)" style="width:70px; text-align: center " />
+                </div>
+            </td>
+            <td style="vertical-align: middle">
+                @Html.DisplayFor(modelItem => item.MovieItem.Name)
+            </td>
+            <td style="vertical-align: middle">
+                <a class="btn btn-sm" href="@Url.Action("Details", "ScheduleItems", new { id = item.Id })" role="button"><span class="glyphicon glyphicon-zoom-in"></span> Details</a>
+                @if ((Boolean)Session["IsAdmin"] == true)
+                {
+                    <a class="btn btn-sm" href="@Url.Action("Edit", "ScheduleItems", new { id = item.Id })" role="button"><span class="glyphicon glyphicon-pencil"></span> Edit</a>
+                    <a class="btn btn-sm" href="@Url.Action("Delete", "ScheduleItems", new { id = item.Id })" role="button"><span class="glyphicon glyphicon-trash"></span> Delete</a>
+                }
+            </td>
+        </tr>
+    }
+</table>
+<p>
+    <a class="btn btn-default" href="@Url.Action("Homepage", "Home")" role="button"><span class="glyphicon glyphicon-chevron-left"></span> Back to List</a>
+</p>
+

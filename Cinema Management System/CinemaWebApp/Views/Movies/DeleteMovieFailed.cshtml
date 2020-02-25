@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "DeleteMovieFailed";
+}
+<hr>
+<h2>Problem beim Löschen des Movies</h2>
+<h3>Dieses Movie könnte nicht geschlöscht werden, weil es mindestens noch in einem Scheduleitem enthalten ist!</h3>
+<p>
+    Versuchen Sie bitte zunächst, die allen betreffenden Scheduleitems zu löschen.
+</p>
+
+<p>
+    <a href="@Url.Action("Index", "Movies")" class="btn btn-default" role="button"><span class="glyphicon glyphicon-chevron-left"></span> Back to List</a>
+    <a href="@Url.Action("Index", "ScheduleItems")" class="btn btn-default" role="button"><span class="glyphicon glyphicon-facetime-video"></span> Schedule</a>
+</p>
+
+

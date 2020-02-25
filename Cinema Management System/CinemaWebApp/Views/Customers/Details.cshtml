@@ -1,0 +1,61 @@
+﻿@model CinamaLib1.Customer
+@{
+    ViewBag.Title = "Ueser Details";
+}
+<hr>
+<h3>Details zu User</h3>
+<p>
+    Hier findest du alle Informationen zum jeweiligen Nutzer.
+</p>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Nachname:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName) 
+        </dd>
+
+        <dt>
+            Vorname:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            StammNr.:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmployeeNum)
+        </dd>
+
+         <dt>
+            Telefon:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefon)
+        </dd>
+
+        <dt>
+            E-mail:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+    </dl>
+</div>
+<p>
+    <a href="@Url.Action("Index", "Customers") " class="btn btn-default" role="button"><span class="glyphicon glyphicon-chevron-left"></span> Back to List</a>
+    @if ((Boolean)Session["IsAdmin"] == true)
+    {
+        <a href="@Url.Action("Edit", "Customers", new {id=Model.Id})" class="btn btn-default" role="button"><span class="glyphicon glyphicon-pencil"></span> Edit</a>
+    }
+</p>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7ccff9ba3c554e8e8e0c64e0194aa0b4" Name="Diagram1" ZoomLevel="94" >
+        <EntityTypeShape EntityType="CinemaModel.Movie" Width="1.5" PointX="6.125" PointY="1.75" FillColor="DarkGray" />
+        <EntityTypeShape EntityType="CinemaModel.ScheduleItem" Width="1.875" PointX="8.5" PointY="1.75" FillColor="DarkGray" />
+        <EntityTypeShape EntityType="CinemaModel.Ticket" Width="1.5" PointX="11" PointY="5.125" FillColor="DarkGray" />
+        <EntityTypeShape EntityType="CinemaModel.Seat" Width="1.5" PointX="11" PointY="1.75" FillColor="DarkGray" />
+        <AssociationConnector Association="CinemaModel.MovieScheduleItem" />
+        <AssociationConnector Association="CinemaModel.ScheduleItemTicket" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="CinemaModel.TicketSeat" />
+        <EntityTypeShape EntityType="CinemaModel.Customer" Width="1.875" PointX="6.125" PointY="5.375" FillColor="DarkGray" />
+        <AssociationConnector Association="CinemaModel.UserMovie" />
+        <AssociationConnector Association="CinemaModel.UserScheduleItem" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="CinemaModel.UserTicket" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

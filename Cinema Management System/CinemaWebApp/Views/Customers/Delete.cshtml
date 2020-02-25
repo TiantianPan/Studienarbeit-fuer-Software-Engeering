@@ -1,0 +1,72 @@
+﻿@model CinamaLib1.Customer
+@{
+    ViewBag.Title = "User Delete";
+}
+<hr>
+<h2>User Delete</h2>
+<h3>Bist du sicher, dass du diesen Nutzer löschen möchtest?</h3>
+<p>
+    Dieser Nutzer wird unwiederruflich gelöscht.
+</p>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Nachname:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            Vorname:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            StammNr.:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmployeeNum)
+        </dd>
+
+        <dt>
+            Telefon:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefon)
+        </dd>
+
+        <dt>
+            E-mail:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Delete" class="btn btn-default" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <a href="@Url.Action("Index", "Customers") " class="btn btn-default" role="button"><span class="glyphicon glyphicon-chevron-left"></span> Back to List</a>
+            </div>
+        </div>
+
+    }
+</div>

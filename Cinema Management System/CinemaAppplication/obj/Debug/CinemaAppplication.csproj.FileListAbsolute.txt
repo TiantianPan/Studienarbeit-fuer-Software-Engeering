@@ -1,0 +1,120 @@
+Z:\Pan\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.exe.config
+Z:\Pan\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.exe
+Z:\Pan\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.pdb
+Z:\Pan\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.dll
+Z:\Pan\Cinema\CinemaAppplication\bin\Debug\EntityFramework.dll
+Z:\Pan\Cinema\CinemaAppplication\bin\Debug\EntityFramework.SqlServer.dll
+Z:\Pan\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.pdb
+Z:\Pan\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.dll.config
+Z:\Pan\Cinema\CinemaAppplication\bin\Debug\EntityFramework.xml
+Z:\Pan\Cinema\CinemaAppplication\bin\Debug\EntityFramework.SqlServer.xml
+Z:\Pan\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csprojAssemblyReference.cache
+Z:\Pan\Cinema\CinemaAppplication\obj\Debug\de.i2cm.helper.HelperLib.Configuration.ConfigForm.resources
+Z:\Pan\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.Form1.resources
+Z:\Pan\Cinema\CinemaAppplication\obj\Debug\de.i2cm.helper.HelperLib.Forms.SelectDialog.resources
+Z:\Pan\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.TicketForm.resources
+Z:\Pan\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.Properties.Resources.resources
+Z:\Pan\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csproj.GenerateResource.cache
+Z:\Pan\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csproj.CopyComplete
+Z:\Pan\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.exe
+Z:\Pan\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.pdb
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.exe.config
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.exe
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.pdb
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\bin\Debug\EntityFramework.dll
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.dll.config
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\bin\Debug\EntityFramework.xml
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csprojAssemblyReference.cache
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\obj\Debug\de.i2cm.helper.HelperLib.Configuration.ConfigForm.resources
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.Form1.resources
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\obj\Debug\de.i2cm.helper.HelperLib.Forms.SelectDialog.resources
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.TicketForm.resources
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.Properties.Resources.resources
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csproj.GenerateResource.cache
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csproj.CopyComplete
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.exe
+C:\Users\I2CM Developer\Desktop\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.exe.config
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.exe
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\bin\Debug\EntityFramework.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.dll.config
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\bin\Debug\EntityFramework.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csprojAssemblyReference.cache
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\obj\Debug\de.i2cm.helper.HelperLib.Configuration.ConfigForm.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.Form1.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\obj\Debug\de.i2cm.helper.HelperLib.Forms.SelectDialog.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.TicketForm.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.Properties.Resources.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csproj.GenerateResource.cache
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csproj.CopyComplete
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.exe
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp06\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.exe.config
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.exe
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\bin\Debug\EntityFramework.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.dll.config
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\bin\Debug\EntityFramework.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csprojAssemblyReference.cache
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\obj\Debug\de.i2cm.helper.HelperLib.Configuration.ConfigForm.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.Form1.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\obj\Debug\de.i2cm.helper.HelperLib.Forms.SelectDialog.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.TicketForm.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.Properties.Resources.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csproj.GenerateResource.cache
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csproj.CopyComplete
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.exe
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp07\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.exe.config
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.exe
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\bin\Debug\EntityFramework.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.dll.config
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\bin\Debug\EntityFramework.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csprojAssemblyReference.cache
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\obj\Debug\de.i2cm.helper.HelperLib.Configuration.ConfigForm.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.Form1.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\obj\Debug\de.i2cm.helper.HelperLib.Forms.SelectDialog.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.TicketForm.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.Properties.Resources.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csproj.GenerateResource.cache
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csproj.CopyComplete
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.exe
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp10\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.exe.config
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.exe
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\bin\Debug\CinemaAppplication.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\bin\Debug\EntityFramework.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.pdb
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\bin\Debug\CinamaLib1.dll.config
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\bin\Debug\EntityFramework.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csprojAssemblyReference.cache
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\obj\Debug\de.i2cm.helper.HelperLib.Configuration.ConfigForm.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.Form1.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\obj\Debug\de.i2cm.helper.HelperLib.Forms.SelectDialog.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.TicketForm.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.Properties.Resources.resources
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csproj.GenerateResource.cache
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.csproj.CopyComplete
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.exe
+C:\Users\I2CM Developer\Desktop\Cinema - BackUp13-mit User\Cinema\CinemaAppplication\obj\Debug\CinemaAppplication.pdb
